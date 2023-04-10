@@ -1,0 +1,25 @@
+{
+  "name": "js-tutorial",
+  "version": "1.0.0",
+  "main": "anonymousfunc.js",
+  "scripts": {
+    "start": "nodemon middleware"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishnu27902/js-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishnu27902/js-tutorial/issues"
+  },
+  "homepage": "https://github.com/Vishnu27902/js-tutorial#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
