@@ -1,0 +1,172 @@
+HTML (HyperText Markup Language)
+
+version 5
+Case insensitive
+XML-based markup language for creating web pages
+Extensible with Cascading Style Sheets
+Web browsers can render XML or HTML documents
+Common file extension:.html,.hml
+CDN - Content Delivery Network
+White including JS files (async/defer)
+
+CSS (Cascading Style Sheets)
+
+version 3
+For Styling the Webpages
+For Building responsive Web Sites (using media queries)(flex, grid)
+Instead of directly using CSS, We can use Bootstrap (Mobile File CSS Framework) or Tailwind CSS (Utility First CSS Framework)
+
+JavaScript (Programming Language)
+
+Used in Both client side scripting and server side scripting, also used as programming language
+let, var, const
+Data Types -> Number , String, Boolean, Null, Undefined, NaN(Object)
+variable Naming Conventions -> PascalCase (VariableName), camelCase (variableName), snake_case (variable_name),kabab-case (variable-name)  
+Control Flow
+Loops (in/of difference)
+ES6 Concepts
+Scoping
+Lexical Environment
+Temporal DeadZone
+Closure
+Higher Order Functions -> Map, Filter, Reduce, Sort, Find
+Callbacks
+Promises
+Promise Chaining
+Promise Methods -> all, any, race, allSettled
+Async/Await
+Error Handling
+setTimeout, clearTimeout
+setInterval, clearInterval
+setIntermediate, clearIntermediate
+process.nextTick
+Array
+Array Methods
+Functions
+call, apply, bind
+Hoisting -> Normal Functions and Var
+IIFE -> Immediately Invocable Function Expression
+Arrow Functions (Function Expressions)
+this Keyword
+EventListeners
+Nullish Coalescing
+Optional Chaining
+Logical/Short Circuit Operators
+Spread Operator (...)
+Rest Parameter (...args)
+JSON (JavaScript Object Notation)
+JSON.parse, JSON.stringify
+REGEX (Regular Express)
+Object
+Object.entries
+Object.keys
+Object.values
+HTTP Libraries -> XmlHttpRequest (Callback based), fetch(Promise based), Axios(Promise based), Ajax(JQuery)
+AbortController
+InterceptObserver
+Web Sockets (Enables Bidirectional Communication)
+Type of Object Declaration
+Generator Functions
+Classes
+LocalStorage, SessionStorage
+Cookies, Sessions
+DRY - Don't Repeat Yourself
+SOLID Principles ->{
+    Single Responsibility Principle
+    Open Closed Principle
+    Liskov Substitution Principle
+    Interface Segregation Principle
+    Dependency Inversion Principle
+}
+
+Node Js (JavaScript Run Time Environment)
+
+Cross-Platform, Open-Source, Single Threaded, Asynchronous, Event Driven JavaScript Run Time Environment
+V8 Engine (Chrome JavaScript and WebAssembly Engine)(Both Complier and Interpreter)
+CJS (Common JS) vs ES6 -> require/import
+REPL -> Read Eval Print Loop (starts when node is entered in cmd)
+Changing CJS to ES6 in Node Js -> package.json -> type: "module"
+.env -> to Store Environmental Variables during deployment
+Github -> git operations, .gitignore file purpose
+NVM (Node Version Manager)
+NPM (Node Package Manager) -> install, uninstall, update, update All, ~(minor), ^(patch)
+package.json vs package-lock.json
+Event Loop -> call Stack => Web APIs => Task Queue
+process, childProcess -> fork, spawn
+Streams -> Chunks, pipe Method
+Core Modules -> crypto, path, fs, url, path, queryString, os, http, events, uvlib
+Important Third Party modules-> mongoose, socket.io, jsonwebtoken, cheerio, CORS, express-session, node-mailer, multer
+mongoose -> ODM (Object Document Mapper) for MongoDB
+ORMs -> Squealize, Prisma (Relational -> SQL)
+uvlib -> Thread pool, threads
+worker_threads -> Worker, parentPort (For creating Workers threads for data intensive process)
+child_process -> spawn(Runs new process in same V8 engine instance), fork (create a new instance of V8 engine)
+crypto -> require("crypto").randomBytes(64).toString("hex")
+path -> resolve, ext, join
+promisify
+fs module -> unlink, read, write, append, existSync, Error File Callbacks
+streams -> readable, writable, duplex, transform -> chunks
+stream methods
+String Formats (hex, base64 ect.,)
+http -> Server Building
+Events Module - on(), emit()
+PORT -> Communication EndPoint of a System
+StatusCodes -> 200, 201, 204, 400, 404, 401, 403, 500, 300 (Majorly Used codes)
+Request Response Cycle
+Session, Cookies
+
+Express Js (Server Side JavaScript Framework)
+
+Light weight Framework, used to build scalable and robust Servers
+Template Engines
+MVC Pattern -> Model View Controller
+Neat Folder Structure
+Middleware -> req, res, next, error
+express.static
+express.urlencoded (FormData parsing), express.json (Request data Parsing)
+express.Router
+Routes -> (Follows waterfall flow, supports regex)
+CORS (Cross Origin Resource Sharing) -> WhiteList, Origin, Credentials
+Modules
+HTTP methods -> GET, POST, PATCH, DELETE, HEAD ect.,
+PostMan/ThunderClient (VS Code Extension) -> for API testing
+export.default vs module.exports
+API (Application Programming Interface)
+RESTful (Representational State Transfer) API Architecture
+Authentication (Session based, Token Based (JWT(Json Web Tokens)), OAuth, Passport Js) and Authorization (role based)
+CRUD Operations: Create Read Update Delete (With JSON and DB)
+mongoose ODM -> Schema Design, Model, Mongoose methods
+
+React Js (JavaScript Frontend Library)
+
+JavaScript Frontend Library, Server Side Rendering, Component Based, uses Virtual DOM, Unidirectional Control Flow, uses JSX (JavaScript and XML (Extensive Markup Language)),Manages View(V) in MVC Pattern
+Supports JSX,JS,TSX,TS formats
+Functional Components :
+Hooks -> useState, useEffect, useRef, useReducer, useContext, useCallback, useMemo, useLayoutEffect, useImperativeHandle, useLayoutEffect (Majorly Used)
+Custom Hooks -> useWindowSize, useThrottle, useDebounce etc.,
+props -> prop Drilling
+Context API -> Provider, Consumer
+useEffect vs useLayoutEffect
+useState vs useRef
+useCallback vs useMemo
+useState vs useReducer
+Context API vs Redux
+usePortal
+Higher Order Components
+Dynamic Input Fields
+dangerouslySetInnerHTML
+Memo
+Redux -> Global Store -> Action, Reducer, State (Contains one Global Store)
+Flow -> Dispatcher => Action => Store => View
+React Router (react-router-dom) v6 -> {
+    Link, useNavigate, useParams, BrowserRouter, Router, Route (Mostly Used)
+}
+Bundlers => webpack ect.,
+Error Boundaries => for Managing Errors
+Lazy Load
+Suspense Component
+Infinite Scroll
+Pagination
+Every Component must have renderComponent Method
+Class Based :
+Components LifeCycle Methods -> componentDidMount, componentDidUpdate, componentWillUnmount

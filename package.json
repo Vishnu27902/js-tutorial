@@ -16,11 +16,12 @@
   },
   "homepage": "https://github.com/Vishnu27902/js-tutorial#readme",
   "keywords": [],
-  "description": "",
+  "description": "HTML (HyperText Markup Language)",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "express": "^4.18.2",
     "jquery": "^3.6.4",
     "nodemon": "^2.0.22"
-  }
+  },
+  "devDependencies": {}
 }
