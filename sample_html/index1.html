@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        body{
+            background-color: blue;
+        }
+        .ui-dialog.dialog{
+            border-radius: 10px;
+            font-family: Verdana, Arial, Tahoma, sans-serif;
+            font-size: .8em;
+            padding: 0;
+            border: 1px solid black;
+            box-shadow: 10px 10px 10px black;
+        }
+        
+        .ui-dialog-titlebar-close{
+            display: none;
+        }
+
+        .ui-widget-content{
+            color: black;
+            background: lightcoral;
+        }
+        
+        input[type=text]{
+            width: 78%;
+            margin-top: 5px;
+            display: inline;
+            border: 1px solid grey;
+            font-size: medium;
+            padding: 5px;
+        }
+
+        input:focus{
+            outline:none;
+        }
+
+        .ui-dialog-content #submit{
+            margin-top: 10px;
+            display: block;
+            text-align: center;
+            margin-right: 50%;
+            margin-left: 45%;
+            font-size: medium;
+            border: 2px solid darkorchid;
+            border-radius: 10px;
+        }
+
+        .ui-dialog-content #labelName{
+            font-size: medium;
+        }
+        
+
+        .ui-widget-header{
+            border: 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid black;
+            color: black;
+            font-weight: 1000;
+            background:blue;
+        }
+
+        .ui-dialog .ui-dialog-titlebar{
+            padding: 0.1em 0.5em;
+            position: relative;
+            font-size: 1.25em;
+        }
+    </style>
+    <title>Dialog</title>
+</head>
+<body>
+    <div id="dialog" title="Data">
+        <form class="form_data" id="form">
+            <label for="name" id="labelName">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name ">
+            <input type="submit" id="submit">
+        </form>
+    </div> 
+</body>
+</html>
