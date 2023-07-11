@@ -167,6 +167,8 @@ Props n Concs of Express Js
 
 React Js (JavaScript Frontend Library)
 
+npx create-react-app app-folder-name
+NPX -> Node Package eXecute
 JavaScript Frontend Library, declarative, Server Side Rendering, Component Based, uses Virtual DOM, Unidirectional Control Flow, uses JSX (JavaScript and XML (Extensive Markup Language)),Manages View(V) in MVC Pattern
 Supports JSX,JS,TSX,TS formats
 Short Circuiting
@@ -188,6 +190,7 @@ Dynamic Input Fields
 dangerouslySetInnerHTML
 Memo
 Redux -> Global Store -> Action, Reducer, State (Contains one Global Store)
+Redux Thunk
 Flow -> Dispatcher => Action => Store => View
 React Router (react-router-dom) v6 -> {
     Link, useNavigate, useParams, BrowserRouter, Router, Route (Mostly Used)
