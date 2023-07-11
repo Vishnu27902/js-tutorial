@@ -1,6 +1,6 @@
 HTML (HyperText Markup Language)
 
-version 5
+Version 5
 Case insensitive
 XML-based markup language for creating web pages
 Extensible with Cascading Style Sheets
@@ -33,6 +33,7 @@ Scaling
 
 JavaScript (Programming Language/Scripting Language/Dynamically typed)
 
+Version 3
 Used in Both client side scripting and server side scripting, also used as programming language
 let, var, const
 Data Types -> Number , String, Boolean, Null, Undefined, NaN(Object)
@@ -55,7 +56,7 @@ Error Handling
 setTimeout, clearTimeout
 setInterval, clearInterval
 setIntermediate, clearIntermediate
-process.nextTick
+process.nextTick (node js) 
 Array
 Array Methods
 Functions
@@ -68,7 +69,7 @@ DOM (Document Object Model) manipulation
 EventListeners
 Event propagation
 Event bubbling
-Nullish CoalesciKeyword
+Nullish Coalescing
 Optional Chaining
 Logical/Short Circuit Operators
 Spread Operator (...)
