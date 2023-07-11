@@ -94,13 +94,15 @@ package.json vs package-lock.json
 Event Loop -> call Stack => Web APIs => Task Queue
 process, childProcess -> fork, spawn
 Streams -> Chunks, pipe Method
-Core Modules -> crypto, path, fs, url, path, queryString, os, http, events, uvlib
+Core Modules -> crypto, path, fs, url, path, queryString, os, http, events, libuv
 Important Third Party modules-> mongoose, socket.io, jsonwebtoken, cheerio, CORS, express-session, node-mailer, multer
 mongoose -> ODM (Object Document Mapper) for MongoDB
 ORMs -> Squealize, Prisma (Relational -> SQL)
-uvlib -> Thread pool, threads
+libuv -> Thread pool, threads
 worker_threads -> Worker, parentPort (For creating Workers threads for data intensive process)
 child_process -> spawn(Runs new process in same V8 engine instance), fork (create a new instance of V8 engine)
+Cluster -> for parallelism (use multiple cores that are available in you System)
+os.cpus (Shows the no. of available cores in the host system)
 crypto -> require("crypto").randomBytes(64).toString("hex")
 path -> resolve, ext, join
 promisify
@@ -141,11 +143,13 @@ React Js (JavaScript Frontend Library)
 
 JavaScript Frontend Library, Server Side Rendering, Component Based, uses Virtual DOM, Unidirectional Control Flow, uses JSX (JavaScript and XML (Extensive Markup Language)),Manages View(V) in MVC Pattern
 Supports JSX,JS,TSX,TS formats
+Short Circuiting
 Functional Components :
 Hooks -> useState, useEffect, useRef, useReducer, useContext, useCallback, useMemo, useLayoutEffect, useImperativeHandle, useLayoutEffect (Majorly Used)
 Custom Hooks -> useWindowSize, useThrottle, useDebounce etc.,
 props -> prop Drilling
 Context API -> Provider, Consumer
+Concept of Memoization
 useEffect vs useLayoutEffect
 useState vs useRef
 useCallback vs useMemo
@@ -163,7 +167,9 @@ React Router (react-router-dom) v6 -> {
 }
 Bundlers => webpack ect.,
 Error Boundaries => for Managing Errors
+Code Splitting
 Lazy Load
+Error Boundaries
 Suspense Component
 Infinite Scroll
 Pagination
