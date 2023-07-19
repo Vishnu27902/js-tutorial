@@ -1,27 +1,44 @@
 HTML (HyperText Markup Language)
 
-version 5
+Version 5
 Case insensitive
 XML-based markup language for creating web pages
 Extensible with Cascading Style Sheets
 Web browsers can render XML or HTML documents
-Common file extension:.html,.hml
+Common file extension:.html,.htm
 CDN - Content Delivery Network
 White including JS files (async/defer)
+Inline
+Block
+iframe
 
 CSS (Cascading Style Sheets)
 
-version 3
+Version 3
+CSS Selectors 
+Element Selector
+Class selector
+ID Selector
+Group Selector
+Pseudo Selectors
+Accessing Siblings (~) 
+Direct Clild (>) 
 For Styling the Webpages
 For Building responsive Web Sites (using media queries)(flex, grid)
 Instead of directly using CSS, We can use Bootstrap (Mobile File CSS Framework) or Tailwind CSS (Utility First CSS Framework)
+Tailwindcss dependencies -> postcss, autoprefixer, postcsscli
+Animation 
+Transition
+Scaling
 
-JavaScript (Programming Language)
+JavaScript (Programming Language/Scripting Language/Dynamically typed)
 
+Version 3
 Used in Both client side scripting and server side scripting, also used as programming language
 let, var, const
 Data Types -> Number , String, Boolean, Null, Undefined, NaN(Object)
 variable Naming Conventions -> PascalCase (VariableName), camelCase (variableName), snake_case (variable_name),kabab-case (variable-name)  
+First class function
 Control Flow
 Loops (in/of difference)
 ES6 Concepts
@@ -39,7 +56,7 @@ Error Handling
 setTimeout, clearTimeout
 setInterval, clearInterval
 setIntermediate, clearIntermediate
-process.nextTick
+process.nextTick (node js) 
 Array
 Array Methods
 Functions
@@ -48,7 +65,10 @@ Hoisting -> Normal Functions and Var
 IIFE -> Immediately Invocable Function Expression
 Arrow Functions (Function Expressions)
 this Keyword
+DOM (Document Object Model) manipulation
 EventListeners
+Event propagation
+Event bubbling
 Nullish Coalescing
 Optional Chaining
 Logical/Short Circuit Operators
@@ -82,7 +102,7 @@ SOLID Principles ->{
 Node Js (JavaScript Run Time Environment)
 
 Cross-Platform, Open-Source, Single Threaded, Asynchronous, Event Driven JavaScript Run Time Environment
-V8 Engine (Chrome JavaScript and WebAssembly Engine)(Both Complier and Interpreter)
+V8 Engine (Chrome JavaScript and WebAssembly Engine)(Both Complier and Interpreter) -> written in c++ and high performance
 CJS (Common JS) vs ES6 -> require/import
 REPL -> Read Eval Print Loop (starts when node is entered in cmd)
 Changing CJS to ES6 in Node Js -> package.json -> type: "module"
@@ -92,10 +112,12 @@ NVM (Node Version Manager)
 NPM (Node Package Manager) -> install, uninstall, update, update All, ~(minor), ^(patch)
 package.json vs package-lock.json
 Event Loop -> call Stack => Web APIs => Task Queue
-process, childProcess -> fork, spawn
+Difference between Program, Process, Thread
+Process, childProcess -> fork, spawn
 Streams -> Chunks, pipe Method
 Core Modules -> crypto, path, fs, url, path, queryString, os, http, events, libuv
-Important Third Party modules-> mongoose, socket.io, jsonwebtoken, cheerio, CORS, express-session, node-mailer, multer
+Important Third Party modules-> mongoose, socket.io, jsonwebtoken, cheerio, CORS, express-session, node-mailer, multer(MIME files), date-fns, moment js, helmet js
+Multer -> Multipart/form from the frontend
 mongoose -> ODM (Object Document Mapper) for MongoDB
 ORMs -> Squealize, Prisma (Relational -> SQL)
 libuv -> Thread pool, threads
@@ -116,6 +138,7 @@ PORT -> Communication EndPoint of a System
 StatusCodes -> 200, 201, 204, 400, 404, 401, 403, 500, 300 (Majorly Used codes)
 Request Response Cycle
 Session, Cookies
+Props and Cons of Node js
 
 Express Js (Server Side JavaScript Framework)
 
@@ -126,11 +149,13 @@ Neat Folder Structure
 Middleware -> req, res, next, error
 express.static
 express.urlencoded (FormData parsing), express.json (Request data Parsing)
+express.json({limit: "100mb"}) -> To overcome 413 Error which is req size exceeded (by default 100kb) 
 express.Router
 Routes -> (Follows waterfall flow, supports regex)
 CORS (Cross Origin Resource Sharing) -> WhiteList, Origin, Credentials
 Modules
 HTTP methods -> GET, POST, PATCH, DELETE, HEAD ect.,
+PUT Vs PATCH, GET Vs POST
 PostMan/ThunderClient (VS Code Extension) -> for API testing
 export.default vs module.exports
 API (Application Programming Interface)
@@ -138,12 +163,16 @@ RESTful (Representational State Transfer) API Architecture
 Authentication (Session based, Token Based (JWT(Json Web Tokens)), OAuth, Passport Js) and Authorization (role based)
 CRUD Operations: Create Read Update Delete (With JSON and DB)
 mongoose ODM -> Schema Design, Model, Mongoose methods
+Props n Concs of Express Js
 
 React Js (JavaScript Frontend Library)
 
-JavaScript Frontend Library, Server Side Rendering, Component Based, uses Virtual DOM, Unidirectional Control Flow, uses JSX (JavaScript and XML (Extensive Markup Language)),Manages View(V) in MVC Pattern
+npx create-react-app app-folder-name
+NPX -> Node Package eXecute
+JavaScript Frontend Library, declarative, Server Side Rendering, Component Based, uses Virtual DOM, Unidirectional Control Flow, uses JSX (JavaScript and XML (Extensive Markup Language)),Manages View(V) in MVC Pattern
 Supports JSX,JS,TSX,TS formats
 Short Circuiting
+Importing CSS in React
 Functional Components :
 Hooks -> useState, useEffect, useRef, useReducer, useContext, useCallback, useMemo, useLayoutEffect, useImperativeHandle, useLayoutEffect (Majorly Used)
 Custom Hooks -> useWindowSize, useThrottle, useDebounce etc.,
@@ -156,23 +185,26 @@ useCallback vs useMemo
 useState vs useReducer
 Context API vs Redux
 usePortal
-Higher Order Components
+Higher Order Components(HOC) 
 Dynamic Input Fields
 dangerouslySetInnerHTML
 Memo
 Redux -> Global Store -> Action, Reducer, State (Contains one Global Store)
+Redux Thunk
 Flow -> Dispatcher => Action => Store => View
 React Router (react-router-dom) v6 -> {
     Link, useNavigate, useParams, BrowserRouter, Router, Route (Mostly Used)
 }
+child -> parent component (using call back) 
 Bundlers => webpack ect.,
 Error Boundaries => for Managing Errors
 Code Splitting
 Lazy Load
 Error Boundaries
-Suspense Component
+Suspense Component (Fallback) 
 Infinite Scroll
 Pagination
+Skeleton Loading
 Every Component must have renderComponent Method
 Class Based :
 Components LifeCycle Methods -> componentDidMount, componentDidUpdate, componentWillUnmount
