@@ -176,3 +176,42 @@ Pagination
 Every Component must have renderComponent Method
 Class Based :
 Components LifeCycle Methods -> componentDidMount, componentDidUpdate, componentWillUnmount
+
+Mongo DB
+
+NoSQL DB
+Stored documents in BJSON format
+Sharding -> Vertical Scaling, Horizontal Scaling(shards)
+More or like JSON like Objects
+Database, Collection, Document
+_id
+Show all DBs
+Current db
+Creating DB
+Deleting DB
+Creating Collection
+Inserting Documents
+Deleting documents
+InsertOne
+InsertMany
+UpdateOne -> set, unset
+UpdateMany
+DeleteOne
+DeleteMany
+find -> Projection
+findOne
+Methods -> gt, gte, eq, ne, lt, lte, inc, in, sort(), limit(), Skip(), exists, and, or, not, pull, push, expr, rename
+Replace
+ReplaceMany
+Medium
+{
+    Aggregate
+    Aggregation pipeline
+    Map Reduce
+    Single Purpose aggregation
+    Conditional expression
+    Sharding achieved using clusters
+    in-depth Methods
+    Positional Operator
+    GridFS
+}
