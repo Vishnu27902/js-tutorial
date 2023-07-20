@@ -15,19 +15,19 @@ iframe
 CSS (Cascading Style Sheets)
 
 Version 3
-CSS Selectors 
+CSS Selectors
 Element Selector
 Class selector
 ID Selector
 Group Selector
 Pseudo Selectors
-Accessing Siblings (~) 
-Direct Clild (>) 
+Accessing Siblings (~)
+Direct Clild (>)
 For Styling the Webpages
 For Building responsive Web Sites (using media queries)(flex, grid)
 Instead of directly using CSS, We can use Bootstrap (Mobile File CSS Framework) or Tailwind CSS (Utility First CSS Framework)
 Tailwindcss dependencies -> postcss, autoprefixer, postcsscli
-Animation 
+Animation
 Transition
 Scaling
 
@@ -56,7 +56,7 @@ Error Handling
 setTimeout, clearTimeout
 setInterval, clearInterval
 setIntermediate, clearIntermediate
-process.nextTick (node js) 
+process.nextTick (node js)
 Array
 Array Methods
 Functions
@@ -98,6 +98,7 @@ SOLID Principles ->{
     Interface Segregation Principle
     Dependency Inversion Principle
 }
+Shallow Copy, Deep Copy -> JSON methods, loadash, spread operator
 
 Node Js (JavaScript Run Time Environment)
 
@@ -149,7 +150,7 @@ Neat Folder Structure
 Middleware -> req, res, next, error
 express.static
 express.urlencoded (FormData parsing), express.json (Request data Parsing)
-express.json({limit: "100mb"}) -> To overcome 413 Error which is req size exceeded (by default 100kb) 
+express.json({limit: "100mb"}) -> To overcome 413 Error which is req size exceeded (by default 100kb)
 express.Router
 Routes -> (Follows waterfall flow, supports regex)
 CORS (Cross Origin Resource Sharing) -> WhiteList, Origin, Credentials
@@ -163,7 +164,7 @@ RESTful (Representational State Transfer) API Architecture
 Authentication (Session based, Token Based (JWT(Json Web Tokens)), OAuth, Passport Js) and Authorization (role based)
 CRUD Operations: Create Read Update Delete (With JSON and DB)
 mongoose ODM -> Schema Design, Model, Mongoose methods
-Props n Concs of Express Js
+Props n Cons of Express Js
 
 React Js (JavaScript Frontend Library)
 
@@ -185,7 +186,7 @@ useCallback vs useMemo
 useState vs useReducer
 Context API vs Redux
 usePortal
-Higher Order Components(HOC) 
+Higher Order Components(HOC)
 Dynamic Input Fields
 dangerouslySetInnerHTML
 Memo
@@ -195,19 +196,28 @@ Flow -> Dispatcher => Action => Store => View
 React Router (react-router-dom) v6 -> {
     Link, useNavigate, useParams, BrowserRouter, Router, Route (Mostly Used)
 }
-child -> parent component (using call back) 
+child -> parent component (using call back)
 Bundlers => webpack ect.,
 Error Boundaries => for Managing Errors
 Code Splitting
 Lazy Load
 Error Boundaries
-Suspense Component (Fallback) 
+Suspense Component (Fallback)
 Infinite Scroll
 Pagination
 Skeleton Loading
 Every Component must have renderComponent Method
 Class Based :
 Components LifeCycle Methods -> componentDidMount, componentDidUpdate, componentWillUnmount
+
+DBMS (Database Management)
+
+SQL (Structured Query Language) -> MySQL, Oracle SQL etc.,
+NoSQL -> MongoDB, Redis, Cassandra, Apache etc.,
+ACID Property (Atomicity Consistency Isolation Durability) [ Transaction Control ]
+RAID Levels
+Scaling
+Anomalies (Add, Delete, Update)
 
 Mongo DB
 
@@ -232,7 +242,7 @@ DeleteOne
 DeleteMany
 find -> Projection
 findOne
-Methods -> gt, gte, eq, ne, lt, lte, inc, in, sort(), limit(), Skip(), exists, and, or, not, pull, push, expr, rename
+Methods -> gt, gte, eq, ne, lt, lte, inc, in, pretty(), count(), sort(), limit(), Skip(), exists, and, or, not, pull, push, expr, rename
 Replace
 ReplaceMany
 Medium
@@ -247,3 +257,118 @@ Medium
     Positional Operator
     GridFS
 }
+
+SQL (Structured Query Language)
+
+Difference between SQL and MySQL
+RDBMS (Relational Database Management System)
+RDBMS vs DBMS
+If Exists Command
+Show Command
+Use of IN Keyword
+DDL, DML, DCL, TCL, DQL
+Describe/desc
+Create Delete Insert Update Set Rename Show Select
+Where clause
+Group by having
+Order by
+Limit, Offset
+Conditional Expression
+Switch case
+Looping
+Index
+Keys and Constraints
+IFNULL() and COALASCE()
+Views -> Virtual Table
+Joins -> Inter, Outer, Left, Right, Cross, Self
+Union
+Subquery
+Subquery Execution Flow
+Types of data in SQL
+Tables -> Rows(Record), Columns(Fields)
+Exception Handling
+Stored Procedure
+Triggers -> Add, Update, Delete
+
+OOPs (Object Oriented Programming)
+
+Pillars -> Class, Object, Abstraction, Encapsulation, Polymorphism, Inheritance
+Polymorphism -> Runtime Polymorphism, Compile-time Polymorphism
+Overloading, Overriding
+Inheritance -> One-to-One, One-to-Many, Many-to-Many, Many-to-One
+Single Inheritance
+Multiple Inheritance -> Diamond Relationship
+Multi-level Inheritance
+Hierarchical Inheritance
+Composition
+association
+Singleton Classes
+Abstract Classes
+Interface
+Interface vs Abstract
+Anonymous Classes
+
+Java (Object Oriented Programming Language)
+
+Used for Software Development, Mobile App Development, Web Development etc.,
+Spring, hibernate, Springboot -> Web Development
+Testing -> Selenium, Cucumber
+Swing, AWT (Abstract Window Toolkit) -> GUI (Graphical User Interface)
+Platform Independent
+Packages
+JDK -> JRE -> JVM -> JIT
+JDK -> javac, dev tools etc.,
+JRE -> Java Class, Libraries
+JVM -> Bytecode Interpreter/Compiler for running the code on different platforms. It also has garbage collector
+JIT (Just In Time Compiler)
+Variable Naming -> _, $ Allowed
+Memory Allocation -> Stack, Heap, String Pool
+Access Modifiers -> Public, Private, Protected, Default Access Modifier
+A java file can have only one public class and that class must contain main Method
+Main function can be over ridded but can't be overloaded
+Data Types -> long, int, char, short, byte, boolean, float, double
+Not purely Object Oriented Language (Existence of Primitive Data Types)
+Wrapper Classes -> boxing, unboxing
+Classloader
+Util Package
+Type Casting -> Lower to Higher is Possible
+Loops -> For, While, For Each, do While
+Loop labels
+break, continue
+forEach Function
+Iterator
+HOF -> Higher Order Functions -> Map, Reduce, Filter
+Assignment Operators
+Comparison Operator (=,<>,>=,<=)
+Bitwise Operators
+Pass by Value, Pass by Reference
+Interface
+Classes
+Constructors
+Copy Constructor
+Shallow Copy, Deep Copy
+final -> With Class, Variable, Function
+static -> With Class, Variable, Function
+finalize function within class -> Garbage Collector
+Difference -> Final, Static, Finalize
+Super, this keyword
+Singleton Classes
+Interfaces
+Marker Interfaces
+Abstract Classes
+Difference between abstract and interface
+Multithreading -> Runnable Interface, Threads Class -> run() -> start(), pause()
+Synchronized keyword
+Exception Handling -> try...catch
+Rest Parameter in Java
+Collection Framework
+Functions
+Return Type
+Arguments/Parameters
+new Keyword
+Scanner Function
+Arrays
+Array Methods
+Collection vs collection
+Object Cloning
+JDBC, Spring, Springboot, Hibernate, XML (Extensive Markup Language)
