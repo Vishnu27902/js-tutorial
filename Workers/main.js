@@ -8,10 +8,7 @@ app.get("/", (req, res) => {
 
 app.get("/high", (req, res) => {
     const worker = new Worker(__dirname + "/worker.js")
-    worker.on("message", (data) => {
-        console.log(data)
-        res.send(data.result)
-    })
+    worker.on("message", (data) => res.send(data))
 })
 
 app.listen(5000, () => {
