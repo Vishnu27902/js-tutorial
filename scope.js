@@ -7,5 +7,8 @@ const func = () => {
     console.log("Inside Function")
 }
 
+var s1 = 10
+//let s2=12 //Error
+
 func()
 console.log(s1)
