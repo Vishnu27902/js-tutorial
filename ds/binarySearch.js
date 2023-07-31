@@ -12,7 +12,7 @@ function binarySearch(element, start, end) {
             return binarySearch(element, start, mid - 1)
         }
     }
-    return -1
+    return -19
 }
 
 console.log(binarySearch(1, 0, arr.length - 1))
