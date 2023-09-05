@@ -140,6 +140,8 @@ StatusCodes -> 200, 201, 204, 400, 404, 401, 403, 500, 300 (Majorly Used codes)
 Request Response Cycle
 Session, Cookies
 Props and Cons of Node js
+Rating Limiting with Redis
+Redis -> NoSQL key-value pair Database -> In memory Storage -> Can't Store Large amount of data -> Used for caching
 
 Express Js (Server Side JavaScript Framework)
 
@@ -171,6 +173,7 @@ React Js (JavaScript Frontend Library)
 npx create-react-app app-folder-name
 NPX -> Node Package eXecute
 JavaScript Frontend Library, declarative, Server Side Rendering, Component Based, uses Virtual DOM, Unidirectional Control Flow, uses JSX (JavaScript and XML (Extensive Markup Language)),Manages View(V) in MVC Pattern
+Solid Understanding of Reconciliation and Diffing Algorithm
 Supports JSX,JS,TSX,TS formats
 Short Circuiting
 Importing CSS in React
@@ -197,7 +200,7 @@ React Router (react-router-dom) v6 -> {
     Link, useNavigate, useParams, BrowserRouter, Router, Route (Mostly Used)
 }
 child -> parent component (using call back)
-Bundlers => webpack ect.,
+Bundlers => webpack, Snowpack, parcel ect.,
 Error Boundaries => for Managing Errors
 Code Splitting
 Lazy Load
@@ -209,6 +212,10 @@ Skeleton Loading
 Every Component must have renderComponent Method
 Class Based :
 Components LifeCycle Methods -> componentDidMount, componentDidUpdate, componentWillUnmount
+Difference between create-react-app and create vite
+Vite don't bundle the entire files instead it uses ES6 export and import functionalities such that it only updates the component that is changed
+Vite Production bundler - RollUp
+In react bundling is done for each change in development as well as production process
 
 DBMS (Database Management)
 
@@ -372,3 +379,13 @@ Array Methods
 Collection vs collection
 Object Cloning
 JDBC, Spring, Springboot, Hibernate, XML (Extensive Markup Language)
+
+Server
+
+Also a computer that is enhanced to receive data from remote locations nd process those and provide the response
+Mainly Linux OS is used in the servers (Comparatively less vulnerable than other OS s)
+Load Balancing -> NginX -> Reverse Proxy -> Caching, Rate Limiting, Load Distributing across multiple servers
+NginX -> Context, Directives
+Docker -> for containerization -> DockerFile, DockerIgnoreFile, Image, Container
+Use of Kubernetes for isolation of server
+Need of Backup Server to avoid server failures
