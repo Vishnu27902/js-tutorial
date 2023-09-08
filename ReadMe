@@ -34,10 +34,11 @@ Scaling
 JavaScript (Programming Language/Scripting Language/Dynamically typed)
 
 Version 3
+Contains only Objects and Primitives (Not 100% Objects)
 Used in Both client side scripting and server side scripting, also used as programming language
 let, var, const
 Data Types -> Number , String, Boolean, Null, Undefined, NaN(Object)
-variable Naming Conventions -> PascalCase (VariableName), camelCase (variableName), snake_case (variable_name),kabab-case (variable-name)  
+variable Naming Conventions -> PascalCase (VariableName), camelCase (variableName), snake_case (variable_name), kabab-case (variable-name)  
 First class function
 Control Flow
 Loops (in/of difference)
@@ -317,6 +318,7 @@ Anonymous Classes
 
 Java (Object Oriented Programming Language)
 
+8 Primitive Data Types
 Used for Software Development, Mobile App Development, Web Development etc.,
 Spring, hibernate, Springboot -> Web Development
 Testing -> Selenium, Cucumber
@@ -384,7 +386,7 @@ Server
 
 Also a computer that is enhanced to receive data from remote locations nd process those and provide the response
 Mainly Linux OS is used in the servers (Comparatively less vulnerable than other OS s)
-Load Balancing -> NginX -> Reverse Proxy -> Caching, Rate Limiting, Load Distributing across multiple servers
+Load Balancing -> NginX -> Reverse Proxy -> Caching, Rate Limiting, Load Distribution across multiple servers
 NginX -> Context, Directives
 Docker -> for containerization -> DockerFile, DockerIgnoreFile, Image, Container
 Use of Kubernetes for isolation of server
