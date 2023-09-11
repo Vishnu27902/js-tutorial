@@ -1,3 +1,7 @@
+C -> 1972 -> Dennis Ritchie -> At AT & T Bell Laboratories (Americian Telephone and Telegraph)
+Python -> 1991 -> Monty Python Flying Circus -> Guido Van Rossum
+Java -> 1995 -> SunMicrosoft
+
 HTML (HyperText Markup Language)
 
 Version 5
@@ -34,6 +38,7 @@ Scaling
 JavaScript (Programming Language/Scripting Language/Dynamically typed)
 
 Version 3
+Introduced in 1995 -> Netscape -> Brenden Eich
 Contains only Objects and Primitives (Not 100% Objects)
 Used in Both client side scripting and server side scripting, also used as programming language
 let, var, const
@@ -143,6 +148,7 @@ Session, Cookies
 Props and Cons of Node js
 Rating Limiting with Redis
 Redis -> NoSQL key-value pair Database -> In memory Storage -> Can't Store Large amount of data -> Used for caching
+Note : Future of Node ? Because of Bun Runtime Environment released at Sept. 8 2023! Faster than Node Js and Deno -> Uses JavaScriptCore (Js engine for Mac Os -> Safari) as its Engine -> Written in Zig Programming Language -> Has its in-build standard API for Bundling, Websockets, Servers, http lib, testing etc.,
 
 Express Js (Server Side JavaScript Framework)
 
@@ -222,6 +228,7 @@ DBMS (Database Management)
 
 SQL (Structured Query Language) -> MySQL, Oracle SQL etc.,
 NoSQL -> MongoDB, Redis, Cassandra, Apache etc.,
+Normalization
 ACID Property (Atomicity Consistency Isolation Durability) [ Transaction Control ]
 RAID Levels
 Scaling
@@ -300,7 +307,11 @@ Triggers -> Add, Update, Delete
 
 OOPs (Object Oriented Programming)
 
-Pillars -> Class, Object, Abstraction, Encapsulation, Polymorphism, Inheritance
+Pillars -> Class, Object, Abstraction, Encapsulation, Polymorphism, Inheritance(IS-A), Association(HAS-A)
+Association -> Aggregation and Composition
+Aggregation -> Weak Association
+Composition -> Strong Association
+Encapsulation -> Binding Data and Methods together
 Polymorphism -> Runtime Polymorphism, Compile-time Polymorphism
 Overloading, Overriding
 Inheritance -> One-to-One, One-to-Many, Many-to-Many, Many-to-One
@@ -363,8 +374,11 @@ Difference -> Final, Static, Finalize
 Super, this keyword
 Singleton Classes
 Interfaces
+SAM -> Single Abstract Method -> Functional Interface
 Marker Interfaces
 Abstract Classes
+Lambda Functions
+Anonymous Classes
 Difference between abstract and interface
 Multithreading -> Runnable Interface, Threads Class -> run() -> start(), pause()
 Synchronized keyword
@@ -391,3 +405,41 @@ NginX -> Context, Directives
 Docker -> for containerization -> DockerFile, DockerIgnoreFile, Image, Container
 Use of Kubernetes for isolation of server
 Need of Backup Server to avoid server failures
+
+Data Structures and Algorithms
+
+Time and Space Complexity Analysis
+Notations -> O, Omega, Big O
+Recurrence Relation
+Recursion
+Sorting Algorithms -> Comparison based and non-Comparison based Sorting algorithms (Stable and Unstable)
+Comparison -> Merge Sort, Quick Sort, Linear Sort, Bubble Sort, Insertion Sort, Selection Sort
+Optimized among these -> Merge and Insertion (Average Case -> O(nlogn))
+Non Comparison based Algorithms -> Radix Sort, Counting Sort, Bucket Sort
+Counting Sort -> For collections containing duplicate elements
+Bucket Sort -> For Sorting Decimal Values
+Radix Sort -> For Sorting Elements having different Radix (Radix -> Base)
+Searching Algorithms -> Linear Search, Binary Search, Binary search Tree
+Divide and Conquer Algorithm -> Maximum Sub array Sum etc.,
+Kadane's Algorithm for Maximum Sub Array Sum
+Two Pointer Approach
+Hashing
+Collision Resolution Techniques -> Separate Chaining (Closed Hashing) and Open Addressing (Open Hashing)
+Separate Chaining -> Linear Chaining
+Open Addressing -> Linear Probing, Quadratic Probing, Double Hashing
+Arrays and its methods (Contagious Memory Allotment and Fixed Size)
+Stack -> Last In First Out(LIFO) -> Operations -> Push, Pop, Peek
+Queue -> First In First Out(FIFO) -> Operations -> Enqueue, Dequeue, Peek
+Singly LinkedList (Dynamic Size and Non-Contagious Memory Allotment) -> Has a Data and Next Part
+Doubly LinkedList -> Similar to Singly LinkedList -> Has a Data part, Next Part and Previous Part
+Circular LinkedList -> Last Node Next Part will point to the head of the LinkedList (Contains only data and the next part)
+Doubly Circular LinkedList -> Similar to Circular LinkedList (Contains data, next and the previous part) -> Head's previous part points to the last element of the Linked List
+Floyd's Algorithm for Loop Detection -> Turtle and Rabbit method -> Fast and Slow Pointer
+Tree -> Terminologies -> Node, Edges -> Traversal Methods -> InOrder(LRR), PreOrder(RLR), PostOrder(LRR), LevelOrder
+Tree types -> Binary tree, Binary
+Graph -> Terminologies -> Vertices, Edges -> Traversal Methods -> BFS and DFS
+Heap -> type of tree -> types -> Min Heap and Max Heap
+Trie -> type of tree -> Used in many real World Applications (Search Result Fetching etc.,)
+Prim's and Kruskhal's Algorithm -> For Finding Minimum Spanning Tree
+Dijkstra's Shortest Path Algorithm -> For finding shortest path between two vertices.
+All Pairs Shortest Path Algorithm
