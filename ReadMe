@@ -443,3 +443,4 @@ Trie -> type of tree -> Used in many real World Applications (Search Result Fetc
 Prim's and Kruskhal's Algorithm -> For Finding Minimum Spanning Tree
 Dijkstra's Shortest Path Algorithm -> For finding shortest path between two vertices.
 All Pairs Shortest Path Algorithm
+Dynamic Programming
