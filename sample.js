@@ -17,4 +17,8 @@
 // const newGreeting = greeting.bind(obj)
 // newGreeting()
 
-console.log(typeof {})
+// console.log(typeof {})
+function hi() {
+    return { message: "Hello World" }
+}
+console.log(hi())
