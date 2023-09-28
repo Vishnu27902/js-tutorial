@@ -18,7 +18,23 @@
 // newGreeting()
 
 // console.log(typeof {})
-function hi() {
-    return { message: "Hello World" }
+// function hi() {
+//     return { message: "Hello World" }
+// }
+// console.log(hi())
+
+// function test(){
+//     console.log(arguments[0])
+// }
+
+// test(1,2,3,4,5)
+
+function outer(){
+    let a=1
+    return function inner(){
+        return a++;
+    }
 }
-console.log(hi())
+
+const couter=outer()
+console.log(couter())
